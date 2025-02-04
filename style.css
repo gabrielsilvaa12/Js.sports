@@ -6,7 +6,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #222;
+    background-color: #343434;
     color: #fff;
     line-height: 1.6;
 }
@@ -16,7 +16,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 1rem 2rem;
-    background-color: #343434;
+    background-color: #222;
 }
 
 .logo img {
@@ -30,7 +30,6 @@ body {
     display: flex;
     align-items: center;
     gap: 1rem;
-    flex-direction: row;
 }
 
 .btn {
@@ -61,7 +60,6 @@ body {
 .nav .pesquisa .pesquisa-btn {
     background: none;
     border: none;
-    color: #fff;
     cursor: pointer;
     font-size: 1.2rem;
 }
@@ -69,4 +67,9 @@ body {
 .icon {
     font-size: 1.2rem;
     cursor: pointer;
+}
+
+.banner img {
+    border: 10px solid;
+    margin: 20px;
 }
