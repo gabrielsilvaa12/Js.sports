@@ -3,7 +3,7 @@ document.getElementById("menu-btn").addEventListener("click", function() {
     menu.style.display = menu.style.display === "block" ? "none" : "block";
 });
 
-// Fecha o menu ao clicar fora
+
 document.addEventListener("click", function(event) {
     let menu = document.getElementById("menu");
     let button = document.getElementById("menu-btn");
@@ -15,14 +15,14 @@ document.addEventListener("click", function(event) {
 let index = 0;
 
 function moveSlide(direction) {
-    const slides = document.querySelector(".carousel-container");
+    const slides = document.querySelector(".carrossel-container");
     index += direction;
 
-    if (index > 2) index = 0;  // Volta para a primeira imagem
-    if (index < 0) index = 2;  // Vai para a última imagem
+    if (index > 2) index = 0;  
+    if (index < 0) index = 2;  
 
-    slides.style.transform = `translateX(${-index * 621}px)`;
+    slides.style.transform = `translateX(${-index * 1000}px)`;
 }
 
-// Auto-slide a cada 3 segundos
 setInterval(() => moveSlide(1), 3000);
+

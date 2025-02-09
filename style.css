@@ -16,6 +16,7 @@ body {
 .logo img {
     width: 120px; 
     height: auto;
+    cursor: pointer;
 }
 
 .menu-container {
@@ -25,7 +26,7 @@ body {
 .menu-btn {
     background-color: #e1d417;
     border: none;
-    padding: 11px 22px; /* Aumentei o tamanho do botão */
+    padding: 11px 22px; 
     font-weight: bold;
     cursor: pointer;
     border-radius: 20px;
@@ -45,7 +46,7 @@ body {
 
 .menu li {
     padding: 8px;
-    transition: transform 0.2s ease-in-out; /* Corrigido erro de digitação */
+    transition: transform 0.2s ease-in-out;
 }
 
 .menu li a {
@@ -67,25 +68,26 @@ body {
     border-radius: 5px;
 }
 
-.search-container {
+.pesquisa-container {
     display: flex;
     align-items: center;
 }
 
-.search-input {
-    padding: 10px; /* Aumentei o padding para ficar maior */
+.pesquisa-input {
+    padding: 10px; 
     border-radius: 20px;
     border: none;
     outline: none;
-    width: 280px; /* Aumentei a largura */
+    width: 280px;
     background: #e1d417;
     font-size: 16px;
 }
 
-.profile img {
+.perfil img {
     width: 60px;
     height: 60px;
     border-radius: 50%;
+    cursor: pointer;
 }
 
 .container {
@@ -107,37 +109,38 @@ body {
     width: 100%;
     height: auto;
     margin: 20px 0;
+    cursor: pointer;
 }
 
 .banner img {
     max-width: 100%;
     height: auto;
-    width: 1000px; /* Tamanho original */
+    width: 1000px;
     max-height: 421px;
-    border-radius: 10px; /* Adiciona cantos arredondados (opcional) */
+    border-radius: 10px; 
 }
 
-.carousel {
+.carrossel-principal {
     position: relative;
-    max-width: 621px;
+    max-width: 1000px;
     margin: 30px auto;
     overflow: hidden;
     border-radius: 10px;
 }
 
-.carousel-container {
+.carrossel-container {
     display: flex;
     transition: transform 0.5s ease-in-out;
-    width: 300%; /* 3 imagens lado a lado */
+    width: 300%; 
 }
 
-.carousel-slide img {
-    width: 621px;
-    height: 364px;
+.carrossel-slide img {
+    width: 1000px;
+    height: 421px;
     border-radius: 10px;
+    cursor: pointer;
 }
 
-/* Botões de navegação */
 .prev, .next {
     position: absolute;
     top: 50%;
