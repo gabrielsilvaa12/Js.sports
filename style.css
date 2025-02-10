@@ -21,6 +21,7 @@ body {
 
 .menu-container {
     position: relative;
+    z-index: 100;
 }
 
 .menu-btn {
@@ -89,40 +90,10 @@ body {
     border-radius: 50%;
     cursor: pointer;
 }
-
-.container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-}
-
-.image {
-    max-width: 100%;
-    max-height: 100%;
-  }
-
-  .banner {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: auto;
-    margin: 20px 0;
-    cursor: pointer;
-}
-
-.banner img {
-    max-width: 100%;
-    height: auto;
-    width: 1000px;
-    max-height: 421px;
-    border-radius: 10px; 
-}
-
+  
 .carrossel-principal {
     position: relative;
-    max-width: 1000px;
+    max-width: 900px;
     margin: 30px auto;
     overflow: hidden;
     border-radius: 10px;
@@ -135,8 +106,8 @@ body {
 }
 
 .carrossel-slide img {
-    width: 1000px;
-    height: 421px;
+    width: 900px;
+    height: 321px;
     border-radius: 10px;
     cursor: pointer;
 }
@@ -159,4 +130,47 @@ body {
 
 .prev:hover, .next:hover {
     background-color: rgba(0, 0, 0, 0.8);
+}
+
+.title-container {
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.title-container hr {
+    flex-grow: 1;
+    border: none;
+    height: 2px;
+    background-color: #BDBDBD;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.grid-item img {
+    width: 300px;
+    height: 160px;
+    border-radius: 8px;
+}
+
+.historico-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+}
+
+.historico-item img {
+    width: 250px;
+    height: 140px;
+    border-radius: 8px;
 }

@@ -18,10 +18,10 @@ function moveSlide(direction) {
     const slides = document.querySelector(".carrossel-container");
     index += direction;
 
-    if (index > 2) index = 0;  
-    if (index < 0) index = 2;  
+    if (index > 1) index = 0;  
+    if (index < 0) index = 1;  
 
-    slides.style.transform = `translateX(${-index * 1000}px)`;
+    slides.style.transform = `translateX(${-index * 900}px)`;
 }
 
 setInterval(() => moveSlide(1), 3000);
