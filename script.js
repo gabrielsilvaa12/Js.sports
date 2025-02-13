@@ -21,7 +21,7 @@ function moveSlide(direction) {
     if (index > 1) index = 0;  
     if (index < 0) index = 1;  
 
-    slides.style.transform = `translateX(${-index * 900}px)`;
+    slides.style.transform = `translateX(${-index * 1100}px)`;
 }
 
 setInterval(() => moveSlide(1), 3000);

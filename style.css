@@ -2,8 +2,8 @@ body {
     margin: 0;
     font-family: 'Trebuchet MS', sans-serif;
     background-color: #343434;
+    min-height: 100vh;
 }
-
 .header {
     display: flex;
     align-items: center;
@@ -11,19 +11,17 @@ body {
     padding: 10px 20px;
     background-color: #222;
     color: white;
+    width: 100%;
 }
-
 .logo img {
     width: 120px; 
     height: auto;
     cursor: pointer;
 }
-
 .menu-container {
     position: relative;
     z-index: 100;
 }
-
 .menu-btn {
     background-color: #e1d417;
     border: none;
@@ -33,7 +31,6 @@ body {
     border-radius: 20px;
     font-size: 16px;
 }
-
 .menu {
     display: none;
     position: absolute;
@@ -44,12 +41,10 @@ body {
     padding: 10px;
     width: 150px;
 }
-
 .menu li {
     padding: 8px;
     transition: transform 0.2s ease-in-out;
 }
-
 .menu li a {
     color: black;
     text-decoration: none;
@@ -57,23 +52,19 @@ body {
     font-size: 16px;
     transition: transform 0.2s ease-in-out, background 0.2s ease-in-out;
 }
-
 .menu li:hover {
     transform: scale(1.1);
 }
-
 .menu li a:hover {
     background: #e1d417;
     color: black;
     padding: 5px;
     border-radius: 5px;
 }
-
 .pesquisa-container {
     display: flex;
     align-items: center;
 }
-
 .pesquisa-input {
     padding: 10px; 
     border-radius: 20px;
@@ -83,35 +74,33 @@ body {
     background: #e1d417;
     font-size: 16px;
 }
-
 .perfil img {
-    width: 60px;
-    height: 60px;
+    width: 65px;
+    height: 65px;
+    margin: 2rem;
     border-radius: 50%;
     cursor: pointer;
 }
   
 .carrossel-principal {
     position: relative;
-    max-width: 900px;
+    width: 100%;
+    max-width: 1100px;
     margin: 30px auto;
     overflow: hidden;
     border-radius: 10px;
 }
-
 .carrossel-container {
     display: flex;
     transition: transform 0.5s ease-in-out;
     width: 300%; 
 }
-
 .carrossel-slide img {
-    width: 900px;
-    height: 321px;
+    width: 1100px;
+    height: auto;
     border-radius: 10px;
     cursor: pointer;
 }
-
 .prev, .next {
     position: absolute;
     top: 50%;
@@ -124,14 +113,11 @@ body {
     font-size: 20px;
     border-radius: 5px;
 }
-
 .prev { left: 10px; }
 .next { right: 10px; }
-
 .prev:hover, .next:hover {
     background-color: rgba(0, 0, 0, 0.8);
 }
-
 .title-container {
     display: flex;
     color: white;
@@ -140,55 +126,50 @@ body {
     gap: 10px;
     margin: 20px 0;
 }
-
 .title-container hr {
     flex-grow: 1;
     border: none;
     height: 2px;
     background-color: #BDBDBD;
 }
-
 .grid-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 10px;
+    gap: 15px;
     justify-content: center;
     padding: 20px;
 }
-
 .grid-item img {
-    width: 300px;
-    height: 160px;
+    width: 100%;
+    height: auto;
     border-radius: 8px;
 }
-
 .historico-container {
     display: flex;
     justify-content: center;
     gap: 10px;
     padding: 20px;
 }
-
 .historico-item img {
-    width: 250px;
-    height: 140px;
+    width: 100%;
+    height: auto;
     border-radius: 8px;
 }
-
 footer {
     background-color: #222;
     color: #B3B3B3;
     padding: 20px;
     font-family: Arial, sans-serif;
     font-size: 16px;
-  }
+    width: 100%;
+}
   
 .footer-top {
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding-bottom: 15px;
-  }
+}
   
 .links a {
     color: #B3B3B3;
@@ -196,53 +177,52 @@ footer {
     margin-right: 20px;
     font-size: 18px;
     transition: color 0.3s ease-in-out;
-  }
+}
   
 .links a:hover {
     color: #e1d417; 
-  }
+}
   
 .redes-sociais a {
     color: #B3B3B3;
     width: 24px;
     margin-left: 13px;
     transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out;
-  }
+}
   
 .redes-sociais a:hover  {
     color: #e1d417;
     transform: scale(1.2);
     filter: brightness(1.5);
-  }
+}
   
 hr {
     border: 0;
     height: 1px;
     background: gray;
     margin: 12px 0;
-  }
+}
   
 .footer-bottom {
     display: flex;
     justify-content: space-between;
     align-items: center;
     font-size: 16px;
-  }
+}
   
 .Copyright {
     display: flex;
     align-items: center;
-  }
+}
   
 .Copyright p {
     font-size: 18px;
-  }
-
+}
 .logo {
     width: 70px;
     margin-right: 12px;
     cursor: pointer;
-  }
+}
   
 .politicas-ajuda a {
     color: #B3B3B3;
@@ -250,9 +230,9 @@ hr {
     margin-left: 20px;
     font-size: 18px;
     transition: color 0.3s ease-in-out;
-  }
+}
   
 .politicas-ajuda a:hover {
     color: #e1d417; 
-  }
-  
+}
+ 
