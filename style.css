@@ -236,3 +236,20 @@ hr {
     color: #e1d417; 
 }
  
+.container-estats {
+    background-color: #222;
+    border: 10px green solid;
+}
+
+.container-estats h2 {
+    text-align: center;
+    color: #e1d417;
+}
+
+.container-estats p {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    color: #e1d417;
+}
