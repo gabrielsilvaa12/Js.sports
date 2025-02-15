@@ -4,6 +4,7 @@ body {
     background-color: #343434;
     min-height: 100vh;
 }
+
 .header {
     display: flex;
     align-items: center;
@@ -13,24 +14,28 @@ body {
     color: white;
     width: 100%;
 }
+
 .logo img {
-    width: 120px; 
+    width: 120px;
     height: auto;
     cursor: pointer;
 }
+
 .menu-container {
     position: relative;
     z-index: 100;
 }
+
 .menu-btn {
     background-color: #e1d417;
     border: none;
-    padding: 11px 22px; 
+    padding: 11px 22px;
     font-weight: bold;
     cursor: pointer;
     border-radius: 20px;
     font-size: 16px;
 }
+
 .menu {
     display: none;
     position: absolute;
@@ -41,10 +46,12 @@ body {
     padding: 10px;
     width: 150px;
 }
+
 .menu li {
     padding: 8px;
     transition: transform 0.2s ease-in-out;
 }
+
 .menu li a {
     color: black;
     text-decoration: none;
@@ -52,21 +59,25 @@ body {
     font-size: 16px;
     transition: transform 0.2s ease-in-out, background 0.2s ease-in-out;
 }
+
 .menu li:hover {
     transform: scale(1.1);
 }
+
 .menu li a:hover {
     background: #e1d417;
     color: black;
     padding: 5px;
     border-radius: 5px;
 }
+
 .pesquisa-container {
     display: flex;
     align-items: center;
 }
+
 .pesquisa-input {
-    padding: 10px; 
+    padding: 10px;
     border-radius: 20px;
     border: none;
     outline: none;
@@ -74,6 +85,7 @@ body {
     background: #e1d417;
     font-size: 16px;
 }
+
 .perfil img {
     width: 65px;
     height: 65px;
@@ -81,7 +93,7 @@ body {
     border-radius: 50%;
     cursor: pointer;
 }
-  
+
 .carrossel-principal {
     position: relative;
     width: 100%;
@@ -90,18 +102,22 @@ body {
     overflow: hidden;
     border-radius: 10px;
 }
+
 .carrossel-container {
     display: flex;
     transition: transform 0.5s ease-in-out;
-    width: 300%; 
+    width: 300%;
 }
+
 .carrossel-slide img {
     width: 1100px;
     height: auto;
     border-radius: 10px;
     cursor: pointer;
 }
-.prev, .next {
+
+.prev,
+.next {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -113,11 +129,20 @@ body {
     font-size: 20px;
     border-radius: 5px;
 }
-.prev { left: 10px; }
-.next { right: 10px; }
-.prev:hover, .next:hover {
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+.prev:hover,
+.next:hover {
     background-color: rgba(0, 0, 0, 0.8);
 }
+
 .title-container {
     display: flex;
     color: white;
@@ -126,12 +151,14 @@ body {
     gap: 10px;
     margin: 20px 0;
 }
+
 .title-container hr {
     flex-grow: 1;
     border: none;
     height: 2px;
     background-color: #BDBDBD;
 }
+
 .grid-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -139,22 +166,26 @@ body {
     justify-content: center;
     padding: 20px;
 }
+
 .grid-item img {
     width: 100%;
     height: auto;
     border-radius: 8px;
 }
+
 .historico-container {
     display: flex;
     justify-content: center;
     gap: 10px;
     padding: 20px;
 }
+
 .historico-item img {
     width: 100%;
     height: auto;
     border-radius: 8px;
 }
+
 footer {
     background-color: #222;
     color: #B3B3B3;
@@ -163,14 +194,14 @@ footer {
     font-size: 16px;
     width: 100%;
 }
-  
+
 .footer-top {
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding-bottom: 15px;
 }
-  
+
 .links a {
     color: #B3B3B3;
     text-decoration: none;
@@ -178,52 +209,53 @@ footer {
     font-size: 18px;
     transition: color 0.3s ease-in-out;
 }
-  
+
 .links a:hover {
-    color: #e1d417; 
+    color: #e1d417;
 }
-  
+
 .redes-sociais a {
     color: #B3B3B3;
     width: 24px;
     margin-left: 13px;
     transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out;
 }
-  
-.redes-sociais a:hover  {
+
+.redes-sociais a:hover {
     color: #e1d417;
     transform: scale(1.2);
     filter: brightness(1.5);
 }
-  
+
 hr {
     border: 0;
     height: 1px;
     background: gray;
     margin: 12px 0;
 }
-  
+
 .footer-bottom {
     display: flex;
     justify-content: space-between;
     align-items: center;
     font-size: 16px;
 }
-  
+
 .Copyright {
     display: flex;
     align-items: center;
 }
-  
+
 .Copyright p {
     font-size: 18px;
 }
+
 .logo {
     width: 70px;
     margin-right: 12px;
     cursor: pointer;
 }
-  
+
 .politicas-ajuda a {
     color: #B3B3B3;
     text-decoration: none;
@@ -231,25 +263,110 @@ hr {
     font-size: 18px;
     transition: color 0.3s ease-in-out;
 }
-  
+
 .politicas-ajuda a:hover {
-    color: #e1d417; 
-}
- 
-.container-estats {
-    background-color: #222;
-    border: 10px green solid;
+    color: #e1d417;
 }
 
-.container-estats h2 {
+.artilharia {
+    width: 60%;
+    max-width: 500px;
+    background: #1e1e1e;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 20px auto; 
+}
+
+h2 {
     text-align: center;
     color: #e1d417;
 }
 
-.container-estats p {
+.tabela {
+    background-color: #1e1e1e;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.dados, .linha {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    padding: 10px;
+    background: #1e1e1e;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.dados {
+    font-weight: bold;
+    color: #e1d417;
+}
+
+.linha:nth-child(even) {
+    background: #333;
+}
+
+.jogador {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    width: 100%;
+    gap: 10px;
+}
+
+.jogador p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    text-align: left; 
+}
+
+small {
+    font-size: 12px;
+    color: #797878;
+}
+
+.foto {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.noticias {
+    width: 60%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.noticia {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    border-radius: 8px;
+    gap: 15px;
+}
+
+.noticia img {
+    width: 300px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.conteudo h3 {
+    font-size: 22px;
     color: #e1d417;
+    cursor: pointer;
+}
+
+.conteudo p {
+    font-size: 18px;
+    color: #ddd;
 }
