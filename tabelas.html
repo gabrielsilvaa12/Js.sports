@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Js Sports</title>
+    <title>Tabelas - JS Sports</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="img/Texto_do_seu_parágrafo__4_-removebg-preview.png" style="sizes: 160x160">
+    <link rel="shortcut icon" href="img/Texto_do_seu_parágrafo__4_-removebg-preview.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 </head>
 <body>
     <header class="header">
-        <div class="logo"><img src="img/WhatsApp_Image_2024-12-12_at_14.57.06-removebg-preview.png" alt=""></div> 
+        <div class="logo"><a href="index.html"><img src="img/WhatsApp_Image_2024-12-12_at_14.57.06-removebg-preview.png" alt=""></a></div> 
         <div class="menu-container">
             <button id="menu-btn" class="menu-btn">Categorias</button>
             <ul id="menu" class="menu">
@@ -28,46 +28,49 @@
         </div>
     </header>
 
-      
-    <section class="carrossel-principal">
-        <div class="carrossel-container">
-            <div class="carrossel-slide">
-                <img src="img/Mídia.jpg" alt="Imagem 1">
-            </div>
-            <div class="carrossel-slide">
-                <img src="img/Mídia.jpg" alt="Imagem 2">
-            </div>
+    <div class="title-container">
+        <hr><h1>Tabelas</h1><hr>
+    </div>
+    <div class="container">
+        <div class="table">
+            <table>
+                <tr>
+                    <th>Classificação</th>
+                    <th>Pontos</th>
+                    <th>Jogos</th>
+                </tr>
+                <tr class="libertadores"><td class="team"><img src="img/Escudo_Botafogo.png"> 1 Botafogo</td><td>53</td><td>26</td></tr>
+                <tr class="libertadores"><td class="team"><img src="img/Palmeiras_logo.svg.png"> 2 Palmeiras</td><td>50</td><td>26</td></tr>
+                <tr class="libertadores"><td class="team"><img src="img/Fortaleza_EC_2018.png"> 3 Fortaleza</td><td>49</td><td>26</td></tr>
+                <tr class="pre-libertadores"><td class="team"><img src="img/Flamengo-RJ_(BRA).png"> 4 Flamengo</td><td>45</td><td>25</td></tr>
+                <tr class="pre-libertadores"><td class="team"><img src="img/Escudo_do_SPFC_1985-1991.png"> 5 São Paulo</td><td>44</td><td>26</td></tr>
+                <tr class="sul-americana"><td class="team"><img src="img/ECBahia.png"> 6 Bahia</td><td>42</td><td>26</td></tr>
+                <tr class="sul-americana"><td class="team"><img src="img/Logo_Cruzeiro_1996.png"> 7 Cruzeiro</td><td>41</td><td>26</td></tr>
+                <tr class="sul-americana"><td class="team"><img src="img/Escudo_do_Sport_Club_Internacional.svg.webp"> 8 Internacional</td><td>38</td><td>24</td></tr>
+                <tr class="sul-americana"><td class="team"><img src="img/CRVascodaGama.png"> 9 Vasco Da Gama</td><td>35</td><td>25</td></tr>
+                <tr class="sul-americana"><td class="team"><img src="img/672px-Atletico_mineiro_galo.png"> 10 Atlético-Mg</td><td>35</td><td>25</td></tr>
+            </table>
         </div>
-        <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
-        <button class="next" onclick="moveSlide(1)">&#10095;</button>
-    </section>
-
-    <section>
-        <div class="title-container">
-            <hr><h1>Ao Vivo</h1><hr>
+        <div class="table">
+            <table>
+                <tr>
+                    <th>Classificação</th>
+                    <th>Pontos</th>
+                    <th>Jogos</th>
+                </tr>
+                <tr><td class="team"><img src="img/Juventude_pika.png"> 11 Juventude</td><td>32</td><td>26</td></tr>
+                <tr><td class="team"><img src="img/RedBullBragantino.png"> 12 RB Bragantino</td><td>31</td><td>25</td></tr>
+                <tr><td class="team"><img src="img/Club_Athletico_Paranaense_2019.png"> 13 Athletico-PR</td><td>30</td><td>24</td></tr>
+                <tr><td class="team"><img src="img/Gremio_logo.svg.png"> 14 Grêmio</td><td>28</td><td>24</td></tr>
+                <tr><td class="team"><img src="img/EscudoCriciumaEC.svg.png"> 15 Criciúma</td><td>28</td><td>25</td></tr>
+                <tr><td class="team"><img src="img/Fluminense_FC_escudo.png"> 16 Fluminense</td><td>27</td><td>25</td></tr>
+                <tr class="rebaixados"><td class="team"><img src="img/Esporte_Clube_Vitória_logo.png"> 17 Vitória</td><td>25</td><td>26</td></tr>
+                <tr class="rebaixados"><td class="team"><img src="img/Corinthians_simbolo.png"> 18 Corinthians</td><td>25</td><td>26</td></tr>
+                <tr class="rebaixados"><td class="team"><img src="img/CuiabáEC2020.png"> 19 Cuiabá</td><td>22</td><td>25</td></tr>
+                <tr class="rebaixados"><td class="team"><img src="img/Atlético_Goianiense.svg.png"> 20 Atlético-GO</td><td>18</td><td>26</td></tr>
+            </table>
         </div>
-            <div class="grid-container">
-            <div class="grid-item"><img src="img/20h.png" alt="Jogo Ao Vivo"></div>
-            <div class="grid-item"><img src="img/20h.png" alt="Jogo Ao Vivo"></div>
-            <div class="grid-item"><img src="img/20h.png" alt="Jogo Ao Vivo"></div>
-            <div class="grid-item"><img src="img/20h.png" alt="Jogo Ao Vivo"></div>
-            <div class="grid-item"><img src="img/20h.png" alt="Jogo Ao Vivo"></div>
-            <div class="grid-item"><img src="img/20h.png" alt="Jogo Ao Vivo"></div>
-            <div class="grid-item"><img src="img/20h.png" alt="Jogo Ao Vivo"></div>
-            <div class="grid-item"><img src="img/20h.png" alt="Jogo Ao Vivo"></div>
-        </div>
-
-        <div class="title-container">
-            <hr><h1>Histórico</h1><hr>
-        </div>
-        <div class="historico-container">
-            <div class="historico-item"><img src="img/20h.png" alt="Jogo Histórico"></div>
-            <div class="historico-item"><img src="img/20h.png" alt="Jogo Histórico"></div>
-            <div class="historico-item"><img src="img/20h.png" alt="Jogo Histórico"></div>
-            <div class="historico-item"><img src="img/20h.png" alt="Jogo Histórico"></div>
-            <div class="historico-item"><img src="img/20h.png" alt="Jogo Histórico"></div>
-        </div>
-    </section>
+    </div>
 
     <div class="title-container">
         <hr><h1>Notícias</h1><hr>
@@ -125,7 +128,5 @@
               </div>
         </div>
     </footer>
-
-    <script src="script.js"></script>
 </body>
 </html>

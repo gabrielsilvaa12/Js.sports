@@ -370,3 +370,89 @@ small {
     font-size: 18px;
     color: #ddd;
 }
+
+.noticias {
+    width: 60%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.noticia {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    border-radius: 8px;
+    gap: 15px;
+}
+
+.noticia img {
+    width: 300px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.conteudo h3 {
+    font-size: 22px;
+    color: #e1d417;
+    cursor: pointer;
+}
+
+.conteudo p {
+    font-size: 18px;
+    color: #ddd;
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.table {
+    background-color: #1e1e1e;
+    padding: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 10px 15px;
+    text-align: left;
+    position: relative;
+}
+td {
+    color: white;
+}
+
+th:nth-child(1), th:nth-child(2), th:nth-child(3) {
+    color: #e1d417;
+}
+tr {
+    border-left: 5px solid transparent;
+}
+.libertadores { border-left-color: blue; }
+.pre-libertadores { border-left-color: orange; }
+.sul-americana { border-left-color: green; }
+.rebaixados { border-left-color: red; }
+.team {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.team img {
+    width: 20px;
+    height: 20px;
+}
+.color-stripe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 5px;
+    height: 100%;
+}
